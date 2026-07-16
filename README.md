@@ -1,2 +1,0 @@
-# Almadhi
-Wooden Pallets, Wood
