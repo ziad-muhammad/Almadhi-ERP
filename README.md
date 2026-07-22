@@ -64,6 +64,46 @@ flowchart TD
 
 See [`docs/DOCUMENTATION.md`](docs/DOCUMENTATION.md) for the full data model and sync details.
 
+## Screenshots
+
+<table>
+<tr>
+<td><img src="Screenshot/screenshot-01.jpg" width="280"/></td>
+<td><img src="Screenshot/screenshot-02.jpg" width="280"/></td>
+<td><img src="Screenshot/screenshot-03.jpg" width="280"/></td>
+</tr>
+<tr>
+<td><img src="Screenshot/screenshot-04.jpg" width="280"/></td>
+<td><img src="Screenshot/screenshot-05.jpg" width="280"/></td>
+<td><img src="Screenshot/screenshot-06.jpg" width="280"/></td>
+</tr>
+<tr>
+<td><img src="Screenshot/screenshot-07.jpg" width="280"/></td>
+<td><img src="Screenshot/screenshot-08.jpg" width="280"/></td>
+<td><img src="Screenshot/screenshot-09.jpg" width="280"/></td>
+</tr>
+<tr>
+<td><img src="Screenshot/screenshot-10.jpg" width="280"/></td>
+<td><img src="Screenshot/screenshot-11.jpg" width="280"/></td>
+<td><img src="Screenshot/screenshot-12.jpg" width="280"/></td>
+</tr>
+<tr>
+<td><img src="Screenshot/screenshot-13.jpg" width="280"/></td>
+<td><img src="Screenshot/screenshot-14.jpg" width="280"/></td>
+<td><img src="Screenshot/screenshot-15.jpg" width="280"/></td>
+</tr>
+<tr>
+<td><img src="Screenshot/screenshot-16.jpg" width="280"/></td>
+<td><img src="Screenshot/screenshot-17.jpg" width="280"/></td>
+<td><img src="Screenshot/screenshot-18.jpg" width="280"/></td>
+</tr>
+<tr>
+<td><img src="Screenshot/screenshot-19.jpg" width="280"/></td>
+<td><img src="Screenshot/screenshot-20.jpg" width="280"/></td>
+<td><img src="Screenshot/screenshot-21.jpg" width="280"/></td>
+</tr>
+</table>
+
 ## Documentation
 
 Full technical and feature documentation (dual-mode architecture, Firebase sync, every module, form validation, keyboard shortcuts, known bug fixes): [`docs/DOCUMENTATION.md`](docs/DOCUMENTATION.md)
