@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://almadhi-demo-default-rtdb.firebaseio.com" crossorigin>
 <link rel="icon" type="image/png" href="icon-512.png?v=3">
 <link rel="manifest" href="manifest.json?v=3">
-<title>Al Madhi Carpentry — ERP</title>
+<title>Al Madhi — ERP</title>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;600;700&family=Cairo:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 </style>
@@ -4087,8 +4087,8 @@ body.mode-sales .erp-seg button.on{background:#0ea5a4}
 <!-- LOCK OVERLAY HTML -->
 <div id="lock-overlay" style="display:none">
   <div class="lock-logo"><svg viewBox="0 0 478 600" xmlns="http://www.w3.org/2000/svg"><path d="M239 28 L452 79 V300 C452 418 342 508 239 568 C136 508 26 418 26 300 V79 Z" fill="#ffffff" stroke="#c69320" stroke-width="24" stroke-linejoin="miter"/><g fill="#082043"><path d="M83 156 H393 V217 H270 V205 H206 V217 H83 Z"/><path d="M83 246 H206 V256 H270 V246 H393 V306 H270 V294 H206 V306 H83 Z"/><path d="M83 334 H206 V344 H270 V334 H393 V395 H270 V383 H206 V395 H83 Z"/></g></svg></div>
-  <div class="lock-title">Al Madhi Carpentry</div>
-  <div class="lock-sub">Al Madhi Carpentry — Locked</div>
+  <div class="lock-title">Al Madhi</div>
+  <div class="lock-sub">Al Madhi — Locked</div>
 
   <div class="lock-card">
     <div class="lock-label" id="lock-prompt-label">Enter Password</div>
@@ -4405,7 +4405,7 @@ async function lockBioRegister() {
   const cred = await navigator.credentials.create({
     publicKey: {
       challenge,
-      rp: { name: 'Al Madhi Carpentry', id: location.hostname || 'localhost' },
+      rp: { name: 'Al Madhi', id: location.hostname || 'localhost' },
       user: { id: userId, name: 'almadhi-user', displayName: 'Al Madhi User' },
       pubKeyCredParams: [{ type: 'public-key', alg: -7 }, { type: 'public-key', alg: -257 }],
       authenticatorSelection: { authenticatorAttachment: 'platform', userVerification: 'required' },
@@ -4548,7 +4548,7 @@ document.addEventListener('DOMContentLoaded', () => lockInit());
     <div class="brand">
       <div class="logo"><svg viewBox="0 0 478 600" xmlns="http://www.w3.org/2000/svg"><path d="M239 28 L452 79 V300 C452 418 342 508 239 568 C136 508 26 418 26 300 V79 Z" fill="#ffffff" stroke="#c69320" stroke-width="24" stroke-linejoin="miter"/><g fill="#082043"><path d="M83 156 H393 V217 H270 V205 H206 V217 H83 Z"/><path d="M83 246 H206 V256 H270 V246 H393 V306 H270 V294 H206 V306 H83 Z"/><path d="M83 334 H206 V344 H270 V334 H393 V395 H270 V383 H206 V395 H83 Z"/></g></svg></div>
       <div>
-        <div class="name">Al Madhi Carpentry</div>
+        <div class="name">Al Madhi</div>
       </div>
     </div>
     <!-- Inline nav — pill capsule style for 8"+ screens -->
@@ -4615,7 +4615,7 @@ document.addEventListener('DOMContentLoaded', () => lockInit());
   <div class="drawer-head">
     <div class="drawer-logo"><svg viewBox="0 0 478 600" xmlns="http://www.w3.org/2000/svg"><path d="M239 28 L452 79 V300 C452 418 342 508 239 568 C136 508 26 418 26 300 V79 Z" fill="#ffffff" stroke="#c69320" stroke-width="24" stroke-linejoin="miter"/><g fill="#082043"><path d="M83 156 H393 V217 H270 V205 H206 V217 H83 Z"/><path d="M83 246 H206 V256 H270 V246 H393 V306 H270 V294 H206 V306 H83 Z"/><path d="M83 334 H206 V344 H270 V334 H393 V395 H270 V383 H206 V395 H83 Z"/></g></svg></div>
     <div>
-      <div class="nm">Al Madhi Carpentry</div>
+      <div class="nm">Al Madhi</div>
       <div class="sb" id="drawer-subtitle">Sales &amp; Purchase ERP</div>
     </div>
     
@@ -4711,7 +4711,7 @@ document.addEventListener('DOMContentLoaded', () => lockInit());
 </div>
   </nav>
   <div class="drawer-foot">
-    <span>Al Sajaa, Sharjah</span>
+    <span>UAE</span>
     <span class="dfoot-sync"><b id="drawer-sync" style="color:#4ade80">Live</b></span>
   </div>
 </aside>
@@ -5323,7 +5323,7 @@ _syncSbControls();
           </svg>
         </div>
         <div class="ref-co-info">
-          <div class="name" id="stmt-co-name">Al Madhi Carpentry</div>
+          <div class="name" id="stmt-co-name">Al Madhi</div>
           <div class="slogan" id="stmt-co-sub">Manufacturing &amp; Supplier of Wooden Pallets</div>
         </div>
       </div>
@@ -5422,7 +5422,7 @@ _syncSbControls();
     </div>
 
     <div class="ref-footer-contact">
-      <b>T</b> 050-5974922 &nbsp;&bull;&nbsp; <b>E</b> almadhicarpentry@yahoo.com
+      <b>T</b> 050-000-0000 &nbsp;&bull;&nbsp; <b>E</b> info@example.com
     </div>
 
     <div class="ref-signoff">
@@ -5684,9 +5684,9 @@ function amqDefaultHTML(){
   +'<div class="amq-sign">'
   +'<div class="amq-signleft">'
   +'<p contenteditable="true">Yours sincerely,</p>'
-  +'<p class="amq-signname" contenteditable="true">Al Madhi Carpentry</p>'
-  +'<p class="amq-signtel" contenteditable="true">Tel: 050-5974922 / 056-2803720</p>'
-  +'<p class="amq-signtel" contenteditable="true">Email: <u>almadhicarpentry@yahoo.com</u></p>'
+  +'<p class="amq-signname" contenteditable="true">Al Madhi</p>'
+  +'<p class="amq-signtel" contenteditable="true">Tel: 050-000-0000 / 056-000-0000</p>'
+  +'<p class="amq-signtel" contenteditable="true">Email: <u>info@example.com</u></p>'
   +'</div>'
   +'<div class="amq-signright">'
   +'<img id="amq-stamp" src="'+AMQ_STAMP+'" alt="">'
@@ -6812,7 +6812,7 @@ if(document.readyState==='loading'){ document.addEventListener('DOMContentLoaded
       <!-- Email -->
       <div class="form-group">
         <label>Email Address</label>
-        <input type="email" id="cu-email" placeholder="user@almadhi.ae" autocomplete="off">
+        <input type="email" id="cu-email" placeholder="user@example.com" autocomplete="off">
       </div>
 
       <!-- Password -->
@@ -7835,7 +7835,7 @@ function applyModeLabels() {
   set('drawer-subtitle', 'Sales & Purchase ERP');
   set('topbar-subtitle', sales ? 'Sales Management' : 'Purchase Management');
   set('zm-mode-label', sales ? 'Sales Management' : 'Purchase Management');
-  document.title = 'Al Madhi Carpentry — ERP';
+  document.title = 'Al Madhi — ERP';
   set('entry-doc-label', sales ? 'Sales Invoice' : 'Purchase Invoice');
   set('entry-party-label', sales ? 'Customer Name *' : 'Party Name (Vendor) *');
   set('entry-items-label', sales ? 'Sales Line Items' : 'Purchase Line Items');
@@ -8597,7 +8597,7 @@ function renderDashCollections(){
     const wa = (typeof _waNumber==='function') ? _waNumber(obj.phone||'') : '';
     const ageTxt = x.age>0 ? x.age+' days' : 'current';
     const ageCls = x.age>90 ? 'col-age-bad' : x.age>60 ? 'col-age-warn' : x.age>30 ? 'col-age-mid' : 'col-age-ok';
-    const msgEn = 'Dear '+heading+',\n\nA friendly reminder from Al Madhi Carpentry: your outstanding balance with us is AED '+fmt(x.bal)+'. Kindly arrange payment at your earliest convenience.\n\nThank you.';
+    const msgEn = 'Dear '+heading+',\n\nA friendly reminder from Al Madhi: your outstanding balance with us is AED '+fmt(x.bal)+'. Kindly arrange payment at your earliest convenience.\n\nThank you.';
     const msgUr = '\u0645\u062d\u062a\u0631\u0645 *'+heading+'*\u060c\n\u0627\u0644\u0645\u0627\u0636\u06cc \u06a9\u0627\u0631\u067e\u06cc\u0646\u0679\u0631\u06cc \u06a9\u06cc \u062c\u0627\u0646\u0628 \u0633\u06d2 \u0627\u06cc\u06a9 \u062f\u0648\u0633\u062a\u0627\u0646\u06c1 \u06cc\u0627\u062f \u062f\u06c1\u0627\u0646\u06cc: \u06c1\u0645\u0627\u0631\u06d2 \u06c1\u0627\u06ba \u0622\u067e \u06a9\u06cc \u0648\u0627\u062c\u0628 \u0627\u0644\u0627\u062f\u0627 \u0631\u0642\u0645 *'+fmt(x.bal)+' \u062f\u0631\u06c1\u0645* \u06c1\u06d2\u06d4 \u0628\u0631\u0627\u06c1\u0650 \u06a9\u0631\u0645 \u0627\u067e\u0646\u06cc \u0633\u06c1\u0648\u0644\u062a \u06a9\u06d2 \u0645\u0637\u0627\u0628\u0642 \u062c\u0644\u062f \u0627\u0632 \u062c\u0644\u062f \u0627\u062f\u0627\u0626\u06cc\u06af\u06cc \u06a9\u0627 \u0627\u0646\u062a\u0638\u0627\u0645 \u06a9\u0631\u06cc\u06ba\u06d4\n\u0634\u06a9\u0631\u06cc\u06c1\u06d4';
     const msg = (lang==='ur') ? msgUr : msgEn;
     let btn;
@@ -8663,7 +8663,7 @@ function renderCollections(ctx){
     const wa = _waNumber(obj.phone || '');
     const ageTxt = x.age > 0 ? x.age + ' days' : 'current';
     const ageCls = x.age > 90 ? 'col-age-bad' : x.age > 60 ? 'col-age-warn' : x.age > 30 ? 'col-age-mid' : 'col-age-ok';
-    const msgEn = `Dear ${heading},\n\nA friendly reminder from Al Madhi Carpentry: your outstanding balance with us is AED ${fmt(x.bal)}. Kindly arrange payment at your earliest convenience.\n\nThank you.`;
+    const msgEn = `Dear ${heading},\n\nA friendly reminder from Al Madhi: your outstanding balance with us is AED ${fmt(x.bal)}. Kindly arrange payment at your earliest convenience.\n\nThank you.`;
     const msgUr = `محترم *${heading}*،\nالماضی کارپینٹری کی جانب سے ایک دوستانہ یاد دہانی: ہمارے ہاں آپ کی واجب الادا رقم *${fmt(x.bal)} درہم* ہے۔ براہِ کرم اپنی سہولت کے مطابق جلد از جلد ادائیگی کا انتظام کریں۔\nشکریہ۔`;
     const msg = _collectLang==='ur' ? msgUr : msgEn;
     let btn;
@@ -11192,9 +11192,9 @@ function printChequeListPdf() {
   doc.rect(0, 0, pageWidth, 26, 'F');
   doc.setTextColor(255,255,255);
   doc.setFontSize(13); doc.setFont(undefined,'bold');
-  doc.text('Al Madhi Carpentry', marginX, 11);
+  doc.text('Al Madhi', marginX, 11);
   doc.setFontSize(8); doc.setFont(undefined,'normal');
-  doc.text('Al Sajaa Industrial Area, Sharjah, UAE', marginX, 16.5);
+  doc.text('Industrial Area, UAE', marginX, 16.5);
   doc.setFontSize(13); doc.setFont(undefined,'bold');
   doc.text('CHEQUE REGISTER', pageWidth-marginX, 11, { align:'right' });
   doc.setFontSize(8); doc.setFont(undefined,'normal');
@@ -11223,7 +11223,7 @@ function printChequeListPdf() {
     doc.setPage(i);
     const h = doc.internal.pageSize.getHeight();
     doc.setFontSize(7.3); doc.setTextColor(140,140,140); doc.setFont(undefined,'normal');
-    doc.text('System-generated document — Al Madhi Carpentry Cheque Register', marginX, h-8);
+    doc.text('System-generated document — Al Madhi Cheque Register', marginX, h-8);
     doc.text('Page ' + i + ' of ' + pageCount, pageWidth-marginX, h-8, { align:'right' });
   }
   doc.save('AlMadhi-ChequeRegister-'+_stamp()+'.pdf');
@@ -11299,8 +11299,8 @@ function buildInvoiceDocHtml(r, pageClass){
   // Purchase invoices: unchanged — we're the buyer (From = the vendor, To Office = us).
   const _isSalesInv = DB.mode === 'sales';
   const _vatOn = _isSalesInv && !!r.vatApplied;
-  const _amTRN = '100222052100003';
-  const _amAddr = 'Al Sajaa Ind. Area, Sharjah, UAE';
+  const _amTRN = '100000000000000';
+  const _amAddr = 'Industrial Area, UAE';
   const _custPB = _isSalesInv ? partyDisplayBlock(r.party, 'en') : null;
   const _custLines = _custPB ? [
     _custPB.contact,
@@ -11326,7 +11326,7 @@ function buildInvoiceDocHtml(r, pageClass){
       <div class="inv-hdr-left">
         <div class="logo-wrap">${logoSvg}</div>
         <div class="co-info">
-          <div class="name">Al Madhi Carpentry</div>
+          <div class="name">Al Madhi</div>
           <div class="tag">Manufacturing &amp; Supplier of Wooden Pallets</div>
         </div>
       </div>
@@ -11342,14 +11342,14 @@ function buildInvoiceDocHtml(r, pageClass){
       <div class="inv-bill-to">
         <div class="lbl">From</div>
         ${_isSalesInv
-          ? `<div class="val"><b>Al Madhi Carpentry</b></div><div class="addr">${_amAddr}${_vatOn ? '<br>TRN: '+_amTRN : ''}</div>`
+          ? `<div class="val"><b>Al Madhi</b></div><div class="addr">${_amAddr}${_vatOn ? '<br>TRN: '+_amTRN : ''}</div>`
           : `<div class="val">${_biqEsc(r.party)}</div>`}
       </div>
       ${_vatOn ? `<div class="inv-taxbadge"><div class="t1">TAX INVOICE</div><div class="t2">TRN ${_amTRN}</div></div>` : ''}
       <div class="inv-bill-from">
         ${_isSalesInv
           ? `<div class="lbl">To</div><div class="val"><b>${_biqEsc(_custPB.heading)}</b></div>${_custLines ? `<div class="addr">${_custLines}</div>` : ''}`
-          : `<div class="lbl">To Office</div><div class="val"><b>Al Madhi Carpentry</b><br>${_amAddr}<br>TRN: ${_amTRN}</div>`}
+          : `<div class="lbl">To Office</div><div class="val"><b>Al Madhi</b><br>${_amAddr}<br>TRN: ${_amTRN}</div>`}
       </div>
     </div>
 
@@ -11393,11 +11393,11 @@ function buildInvoiceDocHtml(r, pageClass){
 
     <div class="inv-ftr">
       <div class="inv-ftr-contacts">
-        <div class="item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg> 050-5974922</div>
-        <div class="item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg> almadhicarpentry@yahoo.com</div>
+        <div class="item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg> 050-000-0000</div>
+        <div class="item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg> info@example.com</div>
       </div>
       <div class="inv-ftr-brand">
-        <div class="p-tag">AL MADHI CARPENTRY</div>
+        <div class="p-tag">AL MADHI</div>
         <div class="p-sub">Quality Pallet Solutions Since 2003</div>
       </div>
     </div>
@@ -11429,8 +11429,8 @@ function buildInvoiceDocHtmlUrdu(r, pageClass){
   // on the OPPOSITE side from English, exactly as requested.
   const _isSalesInv = DB.mode === 'sales';
   const _vatOn = _isSalesInv && !!r.vatApplied;
-  const _amTRN = '100222052100003';
-  const _amAddr = 'الصجاع صنعتی ایریا، شارجہ، متحدہ عرب امارات';
+  const _amTRN = '100000000000000';
+  const _amAddr = 'صنعتی علاقہ، متحدہ عرب امارات';
   const _custPB = _isSalesInv ? partyDisplayBlock(r.party, 'ur') : null;
 
   // Customer data is usually typed in English (no Urdu translation filled in). Left
@@ -11462,7 +11462,7 @@ function buildInvoiceDocHtmlUrdu(r, pageClass){
       <div class="uinv-hdr-left">
         <div class="logo-wrap">${logoSvg}</div>
         <div class="co-info">
-          <div class="name">منجرة الماضی</div>
+          <div class="name">الماضی</div>
           <div class="tag">تیاری و فراہمی لکڑی پیلٹ</div>
         </div>
       </div>
@@ -11477,14 +11477,14 @@ function buildInvoiceDocHtmlUrdu(r, pageClass){
     <div class="uinv-bill-row">
       <div class="uinv-bill-to">
         ${_isSalesInv
-          ? `<div class="lbl">فروخت کنندہ</div><div class="val"><b>منجرة الماضی</b></div><div class="addr">${_amAddr}${_vatOn ? '<br>ٹی آر این: <span class="trn">'+_amTRN+'</span>' : ''}</div>`
+          ? `<div class="lbl">فروخت کنندہ</div><div class="val"><b>الماضی</b></div><div class="addr">${_amAddr}${_vatOn ? '<br>ٹی آر این: <span class="trn">'+_amTRN+'</span>' : ''}</div>`
           : `<div class="lbl">فریق / سپلائر</div><div class="val">${_biqEsc(r.party)}</div>`}
       </div>
       ${_vatOn ? `<div class="uinv-taxbadge"><div class="t1">ٹیکس انوائس</div><div class="t2">TRN ${_amTRN}</div></div>` : ''}
       <div class="uinv-bill-from">
         ${_isSalesInv
           ? `<div class="lbl">خریدار</div><div class="val" style="text-align:left">${_custHeadingHtml}</div>${_custLines ? `<div class="addr" style="text-align:left">${_custLines}</div>` : ''}`
-          : `<div class="lbl">خریدار / دفتر</div><div class="val"><b>منجرة الماضی</b><br>الصجاع صنعتی ایریا، شارجہ، متحدہ عرب امارات<br>ٹی آر این: <span class="trn">${_amTRN}</span></div>`}
+          : `<div class="lbl">خریدار / دفتر</div><div class="val"><b>الماضی</b><br>صنعتی علاقہ، متحدہ عرب امارات<br>ٹی آر این: <span class="trn">${_amTRN}</span></div>`}
       </div>
     </div>
 
@@ -11528,11 +11528,11 @@ function buildInvoiceDocHtmlUrdu(r, pageClass){
 
     <div class="uinv-ftr">
       <div class="uinv-ftr-contacts">
-        <div class="item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg> 050-5974922</div>
-        <div class="item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg> almadhicarpentry@yahoo.com</div>
+        <div class="item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg> 050-000-0000</div>
+        <div class="item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg> info@example.com</div>
       </div>
       <div class="uinv-ftr-brand">
-        <div class="p-tag">منجرة الماضی</div>
+        <div class="p-tag">الماضی</div>
         <div class="p-sub">2003 سے معیاری پیلٹ سلوشنز</div>
       </div>
     </div>
@@ -12562,7 +12562,7 @@ function printPaymentReceipt() {
     <div class="rcpt-hdr-left">
       <div class="rcpt-logo">${logoSvg}</div>
       <div class="rcpt-co">
-        <div class="name">Al Madhi Carpentry</div>
+        <div class="name">Al Madhi</div>
         <div class="tag">Manufacturing &amp; Supplier of Wooden Pallets</div>
       </div>
     </div>
@@ -12576,7 +12576,7 @@ function printPaymentReceipt() {
     <div>
       <div class="lbl">${_sm ? 'Received From' : 'Paid To'}</div>
       <div class="val">${_alEsc(p.party)}</div>
-      <div class="sub">Al Sajaa Ind. Area, Sharjah, UAE</div>
+      <div class="sub">Industrial Area, UAE</div>
     </div>
     <div style="text-align:right">
       <div class="lbl">Payment Method</div>
@@ -12617,11 +12617,11 @@ function printPaymentReceipt() {
 
   <div class="rcpt-ftr">
     <div class="contacts">
-      Tel: 050-5974922<br>
-      almadhicarpentry@yahoo.com
+      Tel: 050-000-0000<br>
+      info@example.com
     </div>
     <div class="brand">
-      <div class="b1">AL MADHI CARPENTRY</div>
+      <div class="b1">AL MADHI</div>
       <div class="b2">Quality Pallet Solutions Since 2003</div>
     </div>
   </div>
@@ -13144,7 +13144,7 @@ async function generateStatementPDF(isShare = false) {
   const marginX = 14;
   const party  = _txt('stmt-party-name');
   const period = _txt('stmt-period-label') || _txt('stmt-date');
-  const trn    = '100222052100003';
+  const trn    = '100000000000000';
   const isSales = DB.mode === 'sales';
 
   // ── Header (matches the app's house PDF style — navy bar, white text) ──
@@ -13152,9 +13152,9 @@ async function generateStatementPDF(isShare = false) {
   doc.rect(0, 0, pageWidth, 30, 'F');
   doc.setTextColor(255,255,255);
   doc.setFontSize(15); doc.setFont(undefined,'bold');
-  doc.text('Al Madhi Carpentry', marginX, 12.5);
+  doc.text('Al Madhi', marginX, 12.5);
   doc.setFontSize(8); doc.setFont(undefined,'normal');
-  doc.text('Al Sajaa Industrial Area, Sharjah, UAE  \u00b7  TRN: ' + trn, marginX, 18.5);
+  doc.text('Industrial Area, UAE  \u00b7  TRN: ' + trn, marginX, 18.5);
   doc.setFontSize(13); doc.setFont(undefined,'bold');
   doc.text('STATEMENT OF ACCOUNT', pageWidth-marginX, 12.5, { align:'right' });
   doc.setFontSize(8); doc.setFont(undefined,'normal');
@@ -13238,7 +13238,7 @@ async function generateStatementPDF(isShare = false) {
       try {
         await navigator.share({
           files: [file],
-          title: 'Al Madhi Carpentry — Statement',
+          title: 'Al Madhi — Statement',
           text: `Statement for ${party} (${period})`
         });
       } catch (e) {
@@ -14377,7 +14377,7 @@ function runUrduStmt() {
         '<div class="urs-brand">' +
           '<div class="ref-logo-wrap">' + _urLogo + '</div>' +
           '<div class="ref-co-info">' +
-            '<div class="name">منجرة الماضی</div>' +
+            '<div class="name">الماضی</div>' +
             '<div class="slogan">تیاری و فراہمی لکڑی پیلٹ</div>' +
           '</div>' +
         '</div>' +
@@ -14418,7 +14418,7 @@ function runUrduStmt() {
         '</table>' +
       '</div>' +
 
-      '<div class="ref-footer-contact urs-contact"><b>T</b> 050-5974922 &nbsp;&bull;&nbsp; <b>E</b> almadhicarpentry@yahoo.com</div>' +
+      '<div class="ref-footer-contact urs-contact"><b>T</b> 050-000-0000 &nbsp;&bull;&nbsp; <b>E</b> info@example.com</div>' +
 
       '<div class="urs-signoff">' +
         '<div class="note">یہ بیان کمپیوٹر سے تیار کیا گیا ہے اور دستخط کے بغیر بھی معتبر ہے۔</div>' +
@@ -14494,7 +14494,7 @@ function printUrduStmt() {
 
   var html = '<!DOCTYPE html><html dir="rtl"><head>' +
     '<meta charset="UTF-8">' +
-    '<title>\u0645\u0646\u062c\u0631\u0629 \u0627\u0644\u0645\u0627\u0636\u064a \u2014 \u0627\u0631\u062f\u0648 \u0628\u06cc\u0627\u0646 \u2014 ' + party + (withInv ? ' + انوائسز' : '') + ' \u2014 ' + dateFile + '</title>' +
+    '<title>\u0627\u0644\u0645\u0627\u0636\u064a \u2014 \u0627\u0631\u062f\u0648 \u0628\u06cc\u0627\u0646 \u2014 ' + party + (withInv ? ' + انوائسز' : '') + ' \u2014 ' + dateFile + '</title>' +
     '<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">' +
     '<style>' +
 
@@ -14763,7 +14763,7 @@ function printUrduStmt() {
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
           <div class="form-group">
             <label>Address (EN)</label>
-            <textarea id="pem-address-en" placeholder="Al Sajaa Ind. Area, Sharjah" rows="2" style="resize:vertical"></textarea>
+            <textarea id="pem-address-en" placeholder="Industrial Area, City" rows="2" style="resize:vertical"></textarea>
           </div>
           <div class="form-group">
             <label>Address (UR)</label>
@@ -14884,7 +14884,7 @@ if ('serviceWorker' in navigator) {
 
 const ERP_DEFAULT_CATS = ['Salary','Labour','Fuel','Transport','Vehicle Maintenance','Office Supplies','Rent','Electricity','Water','Internet','Telephone','Equipment','Machinery Repair','Tools','Wood Purchase','Plastic Purchase','Packing Materials','Loading & Unloading','Courier','Government Fees','Bank Charges','Marketing','Miscellaneous'];
 const ERP_METHODS = ['Cash','Bank','Cheque','Online Transfer'];
-const ERP_CO = 'Al Madhi Carpentry';
+const ERP_CO = 'Al Madhi';
 
 function _ee(s){ return (s==null?'':String(s)).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
 
@@ -15042,7 +15042,7 @@ function erpPrint(title, innerHtml){
   w.document.close();
 }
 function erpDocHeader(docTitle, docNo){
-  return '<div class="dh"><div><div class="co">'+ERP_CO+'</div><div class="sub">Wooden Pallet Manufacturing &amp; Trading &middot; Al Sajaa, Sharjah, UAE</div></div>'+
+  return '<div class="dh"><div><div class="co">'+ERP_CO+'</div><div class="sub">Wooden Pallet Manufacturing &amp; Trading &middot; Industrial Area, UAE</div></div>'+
     '<div class="rt"><div style="font-size:15px;font-weight:800">'+_ee(docTitle)+'</div>'+(docNo?'<div class="sub">'+_ee(docNo)+'</div>':'')+'</div></div>';
 }
 
@@ -16677,7 +16677,7 @@ function buildDeliveryNoteDocHtml(dn, pageClass){
     + '<div class="inv-hdr">'
       + '<div class="inv-hdr-left">'
         + '<div class="logo-wrap">' + logoSvg + '</div>'
-        + '<div class="co-info"><div class="name">Al Madhi Carpentry</div><div class="tag">Manufacturing &amp; Supplier of Wooden Pallets</div></div>'
+        + '<div class="co-info"><div class="name">Al Madhi</div><div class="tag">Manufacturing &amp; Supplier of Wooden Pallets</div></div>'
       + '</div>'
       + '<div class="inv-hdr-right">'
         + '<div class="inv-meta-top">'
@@ -16719,15 +16719,15 @@ function buildDeliveryNoteDocHtml(dn, pageClass){
     + '<div class="dn-sign-row">'
       + '<div class="dn-sign-box"><div class="dn-sign-line">Receiver Name' + (dn.receiverName ? ': ' + _biqEsc(dn.receiverName) : '') + '</div></div>'
       + '<div class="dn-sign-box"><div class="dn-sign-line">Receiver Signature</div></div>'
-      + '<div class="dn-sign-box">' + (_amsStampOn('ams_stamp_on_dn') ? '<img class="ams-stamp-img" src="' + AMQ_STAMP + '" alt="" style="height:70px;display:block;margin:0 auto 4px">' : '<div class="dn-stamp-box">Company Stamp</div>') + '<div class="dn-sign-line" style="border-top:none;margin-top:0">Al Madhi Carpentry</div></div>'
+      + '<div class="dn-sign-box">' + (_amsStampOn('ams_stamp_on_dn') ? '<img class="ams-stamp-img" src="' + AMQ_STAMP + '" alt="" style="height:70px;display:block;margin:0 auto 4px">' : '<div class="dn-stamp-box">Company Stamp</div>') + '<div class="dn-sign-line" style="border-top:none;margin-top:0">Al Madhi</div></div>'
     + '</div>'
 
     + '<div class="inv-ftr">'
       + '<div class="inv-ftr-contacts">'
-        + '<div class="item">050-5974922</div>'
-        + '<div class="item">almadhicarpentry@yahoo.com</div>'
+        + '<div class="item">050-000-0000</div>'
+        + '<div class="item">info@example.com</div>'
       + '</div>'
-      + '<div class="inv-ftr-brand"><div class="p-tag">AL MADHI CARPENTRY</div><div class="p-sub">Quality Pallet Solutions Since 2003</div></div>'
+      + '<div class="inv-ftr-brand"><div class="p-tag">AL MADHI</div><div class="p-sub">Quality Pallet Solutions Since 2003</div></div>'
     + '</div>'
     + '</div>';
 }
